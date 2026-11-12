@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.ljhd</groupId>
+        <artifactId>ljhd-backend</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>common</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>common - 通用模块</name>
+    <description>所有微服务依赖的公共库，包括工具、日志、认证等功能</description>
+
+    <modules>
+        <module>util</module>
+        <module>log</module>
+        <module>swagger</module>
+        <module>oauth</module>
+        <module>redis</module>
+    </modules>
+</project>
